@@ -31,11 +31,11 @@ Tectotrack is ideal for:
 3. Launch Tectotrack and sign in with your subscription credentials.
 
 ### Understanding the UI Layout
-#### UI Environment
+#### Main Window 
 ![UI Environment](1x/ui_env.png)
-#### **Title Bar:** Displays software name and project title.
+#### **Title Bar:** Displays software icon and name.
 ![Title Bar](1x/title_bar.png)
-#### **Action Bar:** Includes project tab, simulation status, and key action buttons.
+#### **Action Bar:** Includes current project tab, simulation status, and key action buttons.
 ![Action Bar](1x/action_bar.png)
 #### **Viewport:** Displays the 3D environment and simulation.
 ![Viewport](1x/viewport.png)
@@ -46,14 +46,14 @@ Tectotrack is ideal for:
 
 ---
 ## 3. Importing an Environment
-1. Create a new project in the **Projects Panel**.
-2. Select the project to open it.
-3. Upload a **Revit (.rvt)** file from your local machine.
-4. Tectotrack processes the file in three steps:
+### 3.1 Create a new project in the **Projects Panel**.
+### 3.2 Select the project to open it.
+### 3.3 Upload a **Revit (.rvt)** file from your local machine.
+### 3.4 Tectotrack processes the file in three steps:
    - **Upload**
    - **Extract Metadata**
    - **Rebuild Mesh**
-5. Once complete, the 3D environment is displayed in the viewport, ready for navigation.
+### 3.5 Once complete, the 3D environment is displayed in the viewport, ready for navigation.
 
 ---
 ## 4. Defining and Running a Simulation
