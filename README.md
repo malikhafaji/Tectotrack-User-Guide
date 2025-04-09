@@ -32,17 +32,17 @@ Tectotrack is ideal for:
 
 ### Understanding the UI Layout
 #### Main Window 
-![UI Environment](1x/ui_env.png)
+![UI Environment](img/1x/ui_env.png)
 #### **Title Bar:** Displays software icon and name.
-![Title Bar](1x/title_bar.png)
+![Title Bar](img/1x/title_bar.png)
 #### **Action Bar:** Includes current project tab, simulation status, and key action buttons.
-![Action Bar](1x/action_bar.png)
+![Action Bar](img/1x/action_bar.png)
 #### **Viewport:** Displays the 3D environment and simulation.
-![Viewport](1x/viewport.png)
+![Viewport](img/1x/viewport.png)
 #### **Navigation Widget:** Tools for zoom, pan, camera management, and level isolation.
-![Navigation Widget](1x/nav_widget.png)
+![Navigation Widget](img/1x/nav_widget.png)
 #### **Agent Flow Panel:** Controls for defining and managing agent behavior.
-![Agent Flow Panel](1x/af_panel.png)
+![Agent Flow Panel](img/1x/af_panel.png)
 
 ---
 ## 3. Importing an Environment
