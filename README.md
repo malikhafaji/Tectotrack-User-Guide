@@ -1,6 +1,6 @@
 # Tectotrack User Guide
 
-## 1. Introduction
+## Introduction
 ### What is Tectotrack?
 Tectotrack is an advanced **crowd simulation** software designed for architects and urban planners. It provides seamless integration with **Autodesk Revit**, eliminating the need for manual environment setup. Users can quickly import Revit models and run crowd simulations for analysis and decision-making.
 
@@ -17,7 +17,15 @@ Tectotrack is ideal for:
 - **Advanced Reporting** – Customizable reports with video recording options.
 
 ---
-## 2. Getting Started
+## Licensing
+### 1. Plans
+### 2. License Agreemet
+### 3. Terms of Service
+
+
+
+
+## Installing Tectotrack
 ### System Requirements
 - **Operating System:** Windows 10/11 (64-bit)
 - **Processor:** Intel i7 or AMD equivalent
@@ -30,9 +38,12 @@ Tectotrack is ideal for:
 2. Run the setup file and follow on-screen instructions.
 3. Launch Tectotrack and sign in with your subscription credentials.
 
-### Understanding the UI Layout
-#### Main Window 
+## User Interface
+### Window System
+After starting Tectotrack, signig in, and set up new project or open previous one, the Tectotrack window should look similar to the image below.
 ![UI Environment](img/1x/ui_env.png)
+<center>The default Tectotrack interface.</center>
+
 #### **Title Bar:** Displays software icon and name.
 ![Title Bar](img/1x/title_bar.png)
 #### **Action Bar:** Includes current project tab, simulation status, and key action buttons.
