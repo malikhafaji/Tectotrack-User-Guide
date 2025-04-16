@@ -2,19 +2,36 @@
 
 ## Introduction
 ### What is Tectotrack?
-Tectotrack is an advanced **crowd simulation** software designed for architects and urban planners. It provides seamless integration with **Autodesk Revit**, eliminating the need for manual environment setup. Users can quickly import Revit models and run crowd simulations for analysis and decision-making.
+**TectoTrack** is the first **social digital twin** — a simulation technology that captures not just the movement of people in space, but the way they **see, interpret, and react** to their environment. It models human behavior in complex settings such as airports, shopping malls, transportation hubs, and public institutions, offering insights grounded in perception and decision-making.<br>
+<br>
+At the core of TectoTrack is a vision-based agent system, enabling each agent to navigate based on what is visible within their field of view. This unique approach goes beyond traditional pathfinding logic by replicating how humans rely on signage, visibility, and spatial cues to make decisions in real time.<br>
+TectoTrack supports a range of agent types, allowing for different levels of behavioral complexity:
+- **Func(G)en** agents operate with predefined tasks and logical sequences, simulating routine behavior.
+- **Detec(G)en** agents explore unfamiliar environments through vision and memory, gradually building local awareness.
+- **N(G)en** agents simulate advanced, human-like reasoning by evaluating their situation and generating decisions through AI-based prompts.
+
+This layered agent architecture allows TectoTrack to simulate both structured and emergent behaviors, providing a powerful tool for designing, evaluating, and optimizing real-world environments with human experience at the center.
+
 
 ### Who is Tectotrack for?
-Tectotrack is ideal for:
-- Architects evaluating pedestrian flow in building designs
-- Urban planners optimizing public spaces
-- Engineers analyzing emergency evacuation scenarios
+TectoTrack is built for professionals who design, manage, or advise on spaces where human experience matters. From architects and planners to consultants and researchers, TectoTrack empowers teams to understand how people truly interact with their environment — both in future designs and in evaluating existing spaces.<br>
+<br>
+It’s for:
+- **Designers & Planners** — to test and optimize layouts, flows, and spatial logic.
+- **Facility Managers** — to improve navigation, safety, and operational efficiency.
+- **Wayfinding & UX Experts** — to design with visibility and user perception in mind.
+- **Consultants** — to support data-driven decisions for complex environments.
+- **Researchers** — to study spatial cognition, perception, and behavior.
+- **Policy & Safety Teams** — to simulate crowd dynamics and emergency scenarios.
 
 ### Key Benefits
-- **Seamless Revit Integration** – Directly imports and processes Revit models.
-- **Automated Metadata Extraction** – Reads project data without requiring manual setup.
-- **Real-Time Simulation** – Dynamic agent behavior and emergency scenarios.
-- **Advanced Reporting** – Customizable reports with video recording options.
+- **Real-Time 24/7 Simulation:** Continuously simulate how people move and behave in spaces, at any time of day or operational scenario — from daily activity to high-stress moments.
+- **Seamless Revit Integration:** Directly imports and processes Revit models, streamlining your workflow and enabling fast, accurate simulation on real architectural data.
+- **Advanced Reporting and Analytics:** Generate customizable reports with visual outputs such as heatmaps, visibility fields, and video recordings to support in-depth spatial analysis and clear stakeholder communication.
+- **Inclusivity:** Test and design environments for all users — including those with mobility,visual paiments differences — to ensure equitable access and usability.
+- **Advertising Visibility:** Evaluate placement and visibility of advertisements and digital media based on where real attention is likely to fall.
+- **Signage and Wayfinding:** Assess the effectiveness of directional systems by tracking how agents interpret and follow visual guidance in complex settings.
+
 
 ---
 ## Licensing
