@@ -38,7 +38,7 @@ It’s for:
 ### 1. Plans
 ### 2. License Agreemet
 ### 3. Terms of Service
-
+<br>
 
 
 
@@ -59,9 +59,9 @@ It’s for:
 ### Window System
 After starting Tectotrack, signig in, and set up new project or open previous one, the Tectotrack window should look similar to the image below.
 ![UI Environment](img/1x/ui_env.png)
-<center>The default Tectotrack interface.</center>
+The default Tectotrack interface.
 
-#### **Title Bar:** Displays software icon and name.
+<!-- #### **Title Bar:** Displays software icon and name.
 ![Title Bar](img/1x/title_bar.png)
 #### **Action Bar:** Includes current project tab, simulation status, and key action buttons.
 ![Action Bar](img/1x/action_bar.png)
@@ -70,22 +70,22 @@ After starting Tectotrack, signig in, and set up new project or open previous on
 #### **Navigation Widget:** Tools for zoom, pan, camera management, and level isolation.
 ![Navigation Widget](img/1x/nav_widget.png)
 #### **Agent Flow Panel:** Controls for defining and managing agent behavior.
-![Agent Flow Panel](img/1x/af_panel.png)
+![Agent Flow Panel](img/1x/af_panel.png) -->
 
 ---
-## 3. Importing an Environment
-### 3.1 Create a new project in the **Projects Panel**.
-### 3.2 Select the project to open it.
-### 3.3 Upload a **Revit (.rvt)** file from your local machine.
-### 3.4 Tectotrack processes the file in three steps:
+### Importing an Environment
+#### 1. Create a new project in the **Projects Panel**.
+#### 2. Select the project to open it.
+#### 3. Upload a **Revit (.rvt)** file from your local machine.
+#### 4. Tectotrack processes the file in three steps:
    - **Upload**
    - **Extract Metadata**
    - **Rebuild Mesh**
-### 3.5 Once complete, the 3D environment is displayed in the viewport, ready for navigation.
+#### 5. Once complete, the 3D environment is displayed in the viewport, ready for navigation.
 
 ---
-## 4. Defining and Running a Simulation
-### Agent Flow Setup
+### Defining and Running a Simulation
+#### **Agent Flow Setup**
 - **Creating/Selecting an Agent Flow**: Use the dropdown list to add or choose an agent flow.
 - **Setting Agent Generators**:
   - Place generator points in the environment.
@@ -97,7 +97,7 @@ After starting Tectotrack, signig in, and set up new project or open previous on
   - Use the interactive flowchart to define movement logic based on metadata.
 - **Saving Scenarios**: Organize different agent flows into scenarios for comparison.
 
-### Running a Simulation
+#### **Running a Simulation**
 - The **Run/Stop Simulation Button** activates once a scenario is fully set up.
 - Start the simulation and observe:
   - Real-time agent movement

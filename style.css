@@ -1,0 +1,96 @@
+/* General styles for the user guide */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 280px; /* Adjust body content to account for sidebar width */
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Sidebar navigation styles */
+.sidebar {
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    padding: 0px;
+    overflow-y: auto;
+}
+
+.sidebar a {
+    color:#4CAF50;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.sidebar ul {
+
+    list-style-type: none;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.sidebar ul ul li {
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: -10px;
+}
+
+
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+/* Header styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+
+/* Main content styles */
+main {
+    padding: 2rem;
+}
+
+main h2 {
+    color: #4CAF50;
+    margin-top: 1.5rem;
+}
+
+main p {
+    margin-bottom: 1rem;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}

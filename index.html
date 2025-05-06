@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tectotrack User Guide</title>
+</head>
+<body>
+  <nav id="sidebar-nav" class="sidebar">
+  </nav>
+  
+
+  <h1>Tectotrack User Guide</h1>
+  <hr>
+
+  <h2 id="introduction">Introduction</h2>
+  <h3 id="what-is-tectotrack">What is Tectotrack?</h3>
+  <p><strong>TectoTrack</strong> is the first <strong>social digital twin</strong> — a simulation technology that captures not just the movement of people in space, but the way they <strong>see, interpret, and react</strong> to their environment. It models human behavior in complex settings such as airports, shopping malls, transportation hubs, and public institutions, offering insights grounded in perception and decision-making.</p>
+  <p>At the core of TectoTrack is a vision-based agent system, enabling each agent to navigate based on what is visible within their field of view. This unique approach goes beyond traditional pathfinding logic by replicating how humans rely on signage, visibility, and spatial cues to make decisions in real time.</p>
+  <p>TectoTrack supports a range of agent types, allowing for different levels of behavioral complexity:</p>
+  <ul>
+    <li><strong>Func(G)en</strong> agents operate with predefined tasks and logical sequences, simulating routine behavior.</li>
+    <li><strong>Detec(G)en</strong> agents explore unfamiliar environments through vision and memory, gradually building local awareness.</li>
+    <li><strong>N(G)en</strong> agents simulate advanced, human-like reasoning by evaluating their situation and generating decisions through AI-based prompts.</li>
+  </ul>
+  <p>This layered agent architecture allows TectoTrack to simulate both structured and emergent behaviors, providing a powerful tool for designing, evaluating, and optimizing real-world environments with human experience at the center.</p>
+
+  <h3>Who is Tectotrack for?</h3>
+  <p>TectoTrack is built for professionals who design, manage, or advise on spaces where human experience matters. From architects and planners to consultants and researchers, TectoTrack empowers teams to understand how people truly interact with their environment — both in future designs and in evaluating existing spaces.</p>
+  <p>It’s for:</p>
+  <ul>
+    <li><strong>Designers & Planners</strong> — to test and optimize layouts, flows, and spatial logic.</li>
+    <li><strong>Facility Managers</strong> — to improve navigation, safety, and operational efficiency.</li>
+    <li><strong>Wayfinding & UX Experts</strong> — to design with visibility and user perception in mind.</li>
+    <li><strong>Consultants</strong> — to support data-driven decisions for complex environments.</li>
+    <li><strong>Researchers</strong> — to study spatial cognition, perception, and behavior.</li>
+    <li><strong>Policy & Safety Teams</strong> — to simulate crowd dynamics and emergency scenarios.</li>
+  </ul>
+
+  <h3>Key Benefits</h3>
+  <ul>
+    <li><strong>Real-Time 24/7 Simulation:</strong> Continuously simulate how people move and behave in spaces, at any time of day or operational scenario — from daily activity to high-stress moments.</li>
+    <li><strong>Seamless Revit Integration:</strong> Directly imports and processes Revit models, streamlining your workflow and enabling fast, accurate simulation on real architectural data.</li>
+    <li><strong>Advanced Reporting and Analytics:</strong> Generate customizable reports with visual outputs such as heatmaps, visibility fields, and video recordings to support in-depth spatial analysis and clear stakeholder communication.</li>
+    <li><strong>Inclusivity:</strong> Test and design environments for all users — including those with mobility, visual impairments, or other differences — to ensure equitable access and usability.</li>
+    <li><strong>Advertising Visibility:</strong> Evaluate placement and visibility of advertisements and digital media based on where real attention is likely to fall.</li>
+    <li><strong>Signage and Wayfinding:</strong> Assess the effectiveness of directional systems by tracking how agents interpret and follow visual guidance in complex settings.</li>
+  </ul>
+
+  <hr>
+
+  <h2>Licensing</h2>
+  <h3>1. Plans</h3>
+  <h3>2. License Agreement</h3>
+  <h3>3. Terms of Service</h3>
+
+  <hr>
+
+
+  <h2>Installing Tectotrack</h2>
+  <h3>System Requirements</h3>
+  <ul>
+    <li><strong>Operating System:</strong> Windows 10/11 (64-bit)</li>
+    <li><strong>Processor:</strong> Intel i7 or AMD equivalent</li>
+    <li><strong>RAM:</strong> 16GB (32GB recommended)</li>
+    <li><strong>Graphics Card:</strong> NVIDIA RTX 3060 or higher</li>
+    <li><strong>Internet Connection:</strong> Required for cloud-based features</li>
+  </ul>
+
+  <h3>Installation and Setup</h3>
+  <ol>
+    <li>Download the installer from the official <a href="https://tectotrack.com" target="_blank">Tectotrack website</a>.</li>
+    <li>Run the setup file and follow on-screen instructions.</li>
+    <li>Launch Tectotrack and sign in with your subscription credentials.</li>
+  </ol>
+
+  <hr>
+
+  <h2>User Interface</h2>
+  <h3>Window System</h3>
+  <p>After starting Tectotrack, signing in, and setting up a new project or opening a previous one, the Tectotrack window should look similar to the image below.</p>
+  <figure>
+    <img src="img/1x/ui_env.png" alt="UI Environment">
+    <figcaption>The default Tectotrack interface.</figcaption>
+  </figure>
+
+
+  <hr>
+
+  <h3>Importing an Environment</h3>
+  <ol>
+    <li>Create a new project in the <strong>Projects Panel</strong>.</li>
+    <li>Select the project to open it.</li>
+    <li>Upload a <strong>Revit (.rvt)</strong> file from your local machine.</li>
+    <li>Tectotrack processes the file in three steps:
+      <ul>
+        <li><strong>Upload</strong></li>
+        <li><strong>Extract Metadata</strong></li>
+        <li><strong>Rebuild Mesh</strong></li>
+      </ul>
+    </li>
+    <li>Once complete, the 3D environment is displayed in the viewport, ready for navigation.</li>
+  </ol>
+
+  <hr>
+
+  <h3>Defining and Running a Simulation</h3>
+  <h4>Agent Flow Setup</h4>
+  <ul>
+    <li><strong>Creating/Selecting an Agent Flow:</strong> Use the dropdown list to add or choose an agent flow.</li>
+    <li><strong>Setting Agent Generators:</strong>
+      <ul>
+        <li>Place generator points in the environment.</li>
+        <li>Define agent types: <strong>Detec(g)en, Func(G)en, or N(G)en</strong>.</li>
+        <li>Adjust <strong>spawn rate</strong> (agents per minute).</li>
+      </ul>
+    </li>
+    <li><strong>Adding Emergency Scenarios:</strong>
+      <ul>
+        <li>Introduce fire or explosions for evacuation testing.</li>
+      </ul>
+    </li>
+    <li><strong>Defining Agent Tasks:</strong>
+      <ul>
+        <li>Use the interactive flowchart to define movement logic based on metadata.</li>
+      </ul>
+    </li>
+    <li><strong>Saving Scenarios:</strong> Organize different agent flows into scenarios for comparison.</li>
+  </ul>
+
+  <h4>Running a Simulation</h4>
+  <ul>
+    <li>The <strong>Run/Stop Simulation Button</strong> activates once a scenario is fully set up.</li>
+    <li>Start the simulation and observe:
+      <ul>
+        <li>Real-time agent movement</li>
+        <li>Click on agents to view their persona/type</li>
+        <li>Enable <strong>PoV Mode</strong> to see from an agent's perspective</li>
+      </ul>
+    </li>
+  </ul>
+
+  <hr>
+
+  <h2>Reporting & Analysis</h2>
+  <h3>Generating Reports</h3>
+  <ul>
+    <li>Select an <strong>existing report profile</strong> or create a new one.</li>
+    <li>Choose which <strong>cameras</strong> to record from.</li>
+    <li>Specify <strong>report types</strong> (charts, heatmaps, path analysis, etc.).</li>
+    <li>Set the <strong>time bracket</strong> (duration) for analysis.</li>
+    <li>Export reports to a designated local folder.</li>
+  </ul>
+
+  <h3>Advanced Simulation Monitoring</h3>
+  <ul>
+    <li>Modify cameras and report settings dynamically while the simulation runs.</li>
+    <li>Generate new reports at any time to capture different scenarios.</li>
+  </ul>
+
+  <hr>
+
+  <h2>Troubleshooting & Best Practices</h2>
+  <h3>Common Issues & Solutions</h3>
+  <ul>
+    <li><strong>Slow performance?</strong> Reduce agent count or adjust graphics settings.</li>
+    <li><strong>Import issues?</strong> Ensure the Revit file is correctly formatted.</li>
+    <li><strong>Simulation not starting?</strong> Check if the scenario setup is complete.</li>
+  </ul>
+
+  <h3>Best Practices</h3>
+  <ul>
+    <li>Use <strong>multiple scenarios</strong> for better analysis.</li>
+    <li>Leverage <strong>PoV Mode</strong> to gain deeper insights into agent behavior.</li>
+    <li>Regularly update your report profiles for comprehensive results.</li>
+  </ul>
+
+  <hr>
+
+  <h2>Appendices</h2>
+  <h3>Shortcut Keys & Navigation Controls</h3>
+  <ul>
+    <li><strong>WASD / Arrow Keys</strong> – Move through the environment.</li>
+    <li><strong>Right Mouse Drag</strong> – Rotate view.</li>
+    <li><strong>Mouse Scroll</strong> – Zoom in/out.</li>
+    <li><strong>Ctrl + Click</strong> – Select multiple agents.</li>
+  </ul>
+
+  <h3>Glossary of Key Terms</h3>
+  <ul>
+    <li><strong>Agent Flow</strong> – The predefined movement behavior of agents.</li>
+    <li><strong>Scenario</strong> – A saved configuration of agents and environmental conditions.</li>
+    <li><strong>Function Objects</strong> – Elements in the environment that agents interact with.</li>
+  </ul>
+
+  <p>For further assistance, visit the <a href="#">Tectotrack Support Page</a>.</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
