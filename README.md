@@ -2,7 +2,7 @@
 
 ## Introduction
 ### What is Tectotrack?
-**TectoTrack** is the first **social digital twin** — a simulation technology that captures not just the movement of people in space, but the way they **see, interpret, and react** to their environment. It models human behavior in complex settings such as airports, shopping malls, transportation hubs, and public institutions, offering insights grounded in perception and decision-making.<br>
+**TectoTrack** is the first **social digital twin** — a simulation technology that captures not just the movement of people in space, but the way they **see, interpret, and react** to their environment. It models human behavior in complex settings such as airports, shopping malls, transportation hubs, and public institutions, offering insights grounded in perception and decision-making. <br>
 <br>
 At the core of TectoTrack is a vision-based agent system, enabling each agent to navigate based on what is visible within their field of view. This unique approach goes beyond traditional pathfinding logic by replicating how humans rely on signage, visibility, and spatial cues to make decisions in real time.<br>
 TectoTrack supports a range of agent types, allowing for different levels of behavioral complexity:
